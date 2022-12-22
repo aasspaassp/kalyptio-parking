@@ -1,0 +1,17 @@
+{
+  "name": "kalytpioparking",
+  "version": "1.0.0",
+  "description": "REST API for kalyptios parking web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "backend",
+    "express",
+    "api"
+  ],
+  "author": "Andrés González Anzures",
+  "license": "ISC"
+}
