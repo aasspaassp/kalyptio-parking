@@ -1,4 +1,4 @@
-import { NewParking, Price, ParkingType } from "./src/types";
+import { NewParking, Price, ParkingType } from "./types";
 type Fields = { address: unknown, price: unknown, type: unknown, images: unknown, score: unknown, description: unknown}
 
 //parse each field and make sure that the return value is exactly of type 

@@ -1,5 +1,5 @@
 import { Parking } from "./src/types";
-import resToParking from "./utils";
+import resToParking from "./src/utils";
 
 const data =
 

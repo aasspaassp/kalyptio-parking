@@ -2,7 +2,7 @@
 
 import express from "express";
 import parkingService from "../services/parkingService"
-import resToParking from "../../utils";
+import resToParking from "../utils";
 const router = express.Router();
 
 
