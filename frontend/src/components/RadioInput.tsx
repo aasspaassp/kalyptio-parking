@@ -3,7 +3,7 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
-import { Controller } from "react-hook-form";
+import { Controller,  } from "react-hook-form";
 import { FormInputProps } from "./FormInputProps";
 
 const options = [
@@ -37,9 +37,10 @@ const RadioInput: React.FC<FormInputProps> = ({name, control, label}) => {
 
 
   return (
-    <FormControl>
-      <FormLabel id="demo-radio-buttons-group-label">{label}</FormLabel>
+    <FormControl component="fieldset">
+      <FormLabel  component="legend" id="demo-radio-buttons-group-label">{label}</FormLabel>
       <Controller
+      defaultValue=""
       name={name}
       control={control}
       render={({
